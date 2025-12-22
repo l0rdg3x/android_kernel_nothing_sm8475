@@ -701,12 +701,12 @@ CONFIG_HIST_TRIGGERS=y
 CONFIG_FUNCTION_ERROR_INJECTION=y
 # CONFIG_RUNTIME_TESTING_MENU is not set
 
-# --- KernelSU (Manual Hooks Mode) ---
+# --- KernelSU-Next Configuration ---
 CONFIG_KSU=y
 CONFIG_KSU_KPROBES_HOOK=n
 CONFIG_KSU_DEBUG=n
 
-# --- SUSFS 2.0 Configuration ---
+# --- SUSFS v2.0.0 Configuration ---
 CONFIG_KSU_SUSFS=y
 CONFIG_KSU_SUSFS_SUS_PATH=y
 CONFIG_KSU_SUSFS_SUS_MOUNT=y
